@@ -1,4 +1,3 @@
-
 /**
  * This callback takes the data form readBook(); function and use it for another operations
  * @callback dataCallback
@@ -9,7 +8,7 @@ var fs = require('fs');
 
 var book1 = '../../_data/book1.txt';
 var book2 = '../../_data/book2.txt';
-var destination = '../../_out/book1_new.txt';
+var destination = '../../_out/book1_and_book2.txt';
 
 /**
  * Read text file (book), when finish call the callback function
@@ -53,19 +52,35 @@ var writeBook = function (bookName, bookContent) {
     console.log('writeBook() - end');
 };
 
-readBook(book1, function (data) {
-    console.log('readBook(book1, callback) = ');
 
-    var data1 = data;
-    console.log(data1);
+/**
+ * Takes two inputs concatenate them and output them into new file
+ * @param {String} input1 input file name
+ * @param {String} input2 input file name
+ * @param {String} output output file name
+ */
+var bookConcate = function (input1, input2, output) {
 
-    readBook(book2, function (data) {
-        console.log('readBook(book2, callback)');
+    readBook(input1, function (data) {
+        console.log('readBook(book1, callback) - start');
 
-        var data2 = data;
-        console.log(data2);
+        var data1 = data;
+        console.log(data1.toString());
 
-        var data3 = data1 + data2;
-        writeBook(destination, data3);
+        readBook(input2, function (data) {
+            console.log('readBook(book2, callback) - start');
+
+            var data2 = data;
+            console.log(data2.toString());
+
+            var data3 = data1 + data2;
+            writeBook(output, data3);
+
+            console.log('readBook(book2, callback) - end');
+        });
+
+        console.log('readBook(book1, callback) - end');
     });
-});
+};
+
+bookConcate(book1, book2, destination);
