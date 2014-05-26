@@ -55,8 +55,8 @@ var writeBook = function (bookName, bookContent) {
 
 /**
  * Takes two inputs concatenate them and output them into new file
- * @param {String} input1 input file name
- * @param {String} input2 input file name
+ * @param {String} input1 input1 file name
+ * @param {String} input2 input2 file name
  * @param {String} output output file name
  */
 var bookConcate = function (input1, input2, output) {
