@@ -15,7 +15,7 @@
     "grunt-contrib-jshint": "^0.10.0"
   },
   "scripts": {
-      "test": "grunt jsdoc"
+          "test": "grunt test"
   },
   "repository": {
     "type": "git",
