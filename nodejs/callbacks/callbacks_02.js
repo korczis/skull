@@ -3,7 +3,7 @@ var fs = require('fs');
 var book1 = '../../_data/book1.txt';
 var destination = '../../_out/book1_new.txt';
 
-var readBook = function (bookName) {
+var readBook = function (bookName, callback) {
     console.log('readBook() - start');
 
     fs.readFile(bookName, function (err, data) {
@@ -14,7 +14,7 @@ var readBook = function (bookName) {
             throw err;
         }
 
-        writeBook(destination, data);
+        callback(data);
 
         console.log('readBook() -> fs.readFile - end');
     });
@@ -24,8 +24,8 @@ var readBook = function (bookName) {
 
 /**
  * Writes book content to book file specified
- * @param bookName File to write to
- * @param bookContent Content to be written to file
+ * @param {String} bookName File to write to
+ * @param {String} bookContent Content to be written to file
  */
 var writeBook = function (bookName, bookContent) {
     console.log('writeBook() - start');
@@ -45,5 +45,17 @@ var writeBook = function (bookName, bookContent) {
     console.log('writeBook() - end');
 };
 
-readBook(book1);
+/**
+ * Take input and re-save it to output
+ * @param {String} input input file name
+ * @param {String} output output file name
+ */
+var bookCopy = function(input, output) {
 
+    readBook(input, function(data) {
+        writeBook(output, data);
+    });
+
+};
+
+bookCopy(book1, destination);
