@@ -17,6 +17,9 @@ var readBook = function (bookName) {
             throw err;
         }
 
+        console.log('readBook() -> fs.readFile - book content');
+        console.log(data.toString());
+
         console.log('readBook() -> fs.readFile - end');
     });
 
