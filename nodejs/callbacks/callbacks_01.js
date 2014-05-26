@@ -1,6 +1,11 @@
 var fs = require('fs');
 
 var book = '../../_data/book1.txt';
+
+/**
+ *
+ * @param bookName [String] Path to book to be read
+ */
 var readBook = function (bookName) {
     console.log('readBook() - start');
 
