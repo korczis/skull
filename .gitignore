@@ -2,6 +2,7 @@
 *.rbc
 /.config
 /coverage/
+/node_modules/
 /InstalledFiles
 /pkg/
 /spec/reports/
