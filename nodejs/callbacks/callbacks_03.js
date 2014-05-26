@@ -55,5 +55,5 @@ readBook(book1, function (data) {
 
         var data3 = data1 + data2;
         writeBook(destination, data3);
-    })
+    });
 });
