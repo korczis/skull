@@ -3,8 +3,8 @@ var fs = require('fs');
 var book = '../../_data/book1.txt';
 
 /**
- *
- * @param bookName [String] Path to book to be read
+ * Read text file (book) and output its content to console
+ * @param bookName [String] Path to file (book) to be read
  */
 var readBook = function (bookName) {
     console.log('readBook() - start');
