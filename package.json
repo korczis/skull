@@ -11,10 +11,11 @@
     "grunt-jsdoc": "~0.5.4"
   },
   "devDependencies": {
-    "grunt-jsdoc": "^0.5.4"
+    "grunt-jsdoc": "^0.5.4",
+    "grunt-contrib-jshint": "^0.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "grunt jsdoc"
   },
   "repository": {
     "type": "git",
