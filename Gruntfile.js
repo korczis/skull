@@ -22,6 +22,7 @@
     'use strict';
 
     module.exports = function (grunt) {
+        grunt.loadNpmTasks('grunt-contrib-jshint');
         grunt.loadNpmTasks('grunt-jsdoc');
 
         grunt.initConfig({
@@ -39,11 +40,37 @@
                     ],
                     dest: "./doc/nodejs/"
                 }
+            },
+
+            jshint: {
+                options: {
+                    curly: true,
+                    eqeqeq: true,
+                    eqnull: true,
+                    browser: true,
+                    globals: {
+                        jQuery: true,
+                        next: true,
+                        require: true
+                    }
+                },
+                nodejs: [
+                    "nodejs/**/*.js"
+                ],
+                grunt: [
+                    "Gruntfile.js"
+                ]
             }
         });
 
+        // Test task.
+        grunt.registerTask('test', [
+            'jshint'
+        ]);
+
         // Default tasks.
         grunt.registerTask('default', [
+            'test',
             'jsdoc'
         ]);
     };
