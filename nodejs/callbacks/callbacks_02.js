@@ -22,6 +22,11 @@ var readBook = function (bookName) {
     console.log('readBook() - end');
 };
 
+/**
+ * Writes book content to book file specified
+ * @param bookName File to write to
+ * @param bookContent Content to be written to file
+ */
 var writeBook = function (bookName, bookContent) {
     console.log('writeBook() - start');
 
