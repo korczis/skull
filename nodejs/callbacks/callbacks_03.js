@@ -1,9 +1,21 @@
+
+/**
+ * This callback takes the data form readBook(); function and use it for another operations
+ * @callback dataCallback
+ * @param {Object} book data content
+ */
+
 var fs = require('fs');
 
 var book1 = '../../_data/book1.txt';
 var book2 = '../../_data/book2.txt';
 var destination = '../../_out/book1_new.txt';
 
+/**
+ * Read text file (book), when finish call the callback function
+ * @param {String} bookName Path to file (book) to be read
+ * @param {dataCallback} callback - The callback that handles data
+ */
 var readBook = function (bookName, callback) {
     console.log('readBook() - start');
 

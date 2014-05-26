@@ -4,7 +4,7 @@ var book = '../../_data/book1.txt';
 
 /**
  * Read text file (book) and output its content to console
- * @param bookName [String] Path to file (book) to be read
+ * @param {String} bookName Path to file (book) to be read
  */
 var readBook = function (bookName) {
     console.log('readBook() - start');
