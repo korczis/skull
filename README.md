@@ -6,7 +6,7 @@ Collection of programming materials
 
 * [skull-c](https://github.com/korczis/skull-c) - C
 * [skull-cpp](https://github.com/korczis/skull-cpp) - C++
-* [skull-cuda](https://github.com/korczis/skull-erlag) - Cuda (Nvidia)
+* [skull-cuda](https://github.com/korczis/skull-cuda) - Cuda (Nvidia)
 * [skull-erlang](https://github.com/korczis/skull-erlang) - Erlang
 * [skull-haskell](https://github.com/korczis/skull-haskell) - Haskell
 * [skull-java](https://github.com/korczis/skull-java) - Java
