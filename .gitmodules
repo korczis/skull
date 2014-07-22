@@ -13,3 +13,6 @@
 [submodule "cpp"]
 	path = cpp
 	url = https://github.com/korczis/skull-cpp.git
+[submodule "js"]
+	path = js
+	url = https://github.com/korczis/skull-js.git
