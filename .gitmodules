@@ -7,3 +7,6 @@
 [submodule "erlang"]
 	path = erlang
 	url = https://github.com/korczis/skull-erlang.git
+[submodule "nodejs"]
+	path = nodejs
+	url = https://github.com/korczis/skull-nodejs.git
