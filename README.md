@@ -1,7 +1,15 @@
 # skull
 
-Online Programming School which trains brains in your skull 
+Collection of programming materials
 
-## Status
+## Subprojects
 
-[![Build Status](https://travis-ci.org/korczis/skull.svg?branch=master)](https://travis-ci.org/korczis/skull)
+* [skull-c](https://github.com/korczis/skull-c) - C
+* [skull-cpp](https://github.com/korczis/skull-cpp) - C++
+* [skull-cuda](https://github.com/korczis/skull-erlag) - Cuda (Nvidia)
+* [skull-erlang](https://github.com/korczis/skull-erlang) - Erlang
+* [skull-haskell](https://github.com/korczis/skull-haskell) - Haskell
+* [skull-java](https://github.com/korczis/skull-java) - Java
+* [skull-js](https://github.com/korczis/skull-js) - Javascript
+* [skull-nodejs](https://github.com/korczis/skull-nodejs) - Nodejs
+* [skull-ruby](https://github.com/korczis/skull-ruby) - Ruby
