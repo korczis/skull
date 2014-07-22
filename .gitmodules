@@ -19,3 +19,6 @@
 [submodule "ruby"]
 	path = ruby
 	url = https://github.com/korczis/skull-ruby.git
+[submodule "java"]
+	path = java
+	url = https://github.com/korczis/skull-java.git
