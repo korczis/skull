@@ -4,3 +4,6 @@
 [submodule "haskell"]
 	path = haskell
 	url = https://github.com/korczis/skull-haskell.git
+[submodule "erlang"]
+	path = erlang
+	url = https://github.com/korczis/skull-erlang.git
