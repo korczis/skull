@@ -1,3 +1,6 @@
 [submodule "cuda"]
 	path = cuda
 	url = https://github.com/korczis/skull-cuda.git
+[submodule "haskell"]
+	path = haskell
+	url = https://github.com/korczis/skull-haskell.git
