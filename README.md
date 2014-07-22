@@ -5,7 +5,7 @@ Collection of programming materials
 ## Subprojects
 
 * [skull-c](https://github.com/korczis/skull-c) - C
-* [skull-cpp](https://github.com/korczis/skull-cpp) - C++
+* [![Build Status](https://travis-ci.org/korczis/skull-cpp.svg?branch=master)](https://travis-ci.org/korczis/skull-cpp) [skull-cpp](https://github.com/korczis/skull-cpp) - C++
 * [skull-cuda](https://github.com/korczis/skull-cuda) - Cuda (Nvidia)
 * [skull-erlang](https://github.com/korczis/skull-erlang) - Erlang
 * [skull-haskell](https://github.com/korczis/skull-haskell) - Haskell
