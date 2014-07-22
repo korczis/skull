@@ -12,4 +12,4 @@ Collection of programming materials
 * [skull-java](https://github.com/korczis/skull-java) - Java
 * [skull-js](https://github.com/korczis/skull-js) - Javascript
 * [skull-nodejs](https://github.com/korczis/skull-nodejs) - Nodejs
-* [skull-ruby](https://github.com/korczis/skull-ruby) - Ruby
+* [![Build Status](https://travis-ci.org/korczis/skull-ruby.svg?branch=master)](https://travis-ci.org/korczis/skull-ruby) [skull-ruby](https://github.com/korczis/skull-ruby) - Ruby
