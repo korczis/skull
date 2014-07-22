@@ -10,3 +10,6 @@
 [submodule "nodejs"]
 	path = nodejs
 	url = https://github.com/korczis/skull-nodejs.git
+[submodule "cpp"]
+	path = cpp
+	url = https://github.com/korczis/skull-cpp.git
