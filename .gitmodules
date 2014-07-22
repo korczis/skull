@@ -16,3 +16,6 @@
 [submodule "js"]
 	path = js
 	url = https://github.com/korczis/skull-js.git
+[submodule "ruby"]
+	path = ruby
+	url = https://github.com/korczis/skull-ruby.git
