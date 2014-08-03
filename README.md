@@ -1,6 +1,6 @@
 # skull
 
-Collection of programming materials
+Collection of programming materials.
 
 ## Subprojects
 

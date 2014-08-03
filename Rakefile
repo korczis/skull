@@ -1,14 +1,10 @@
 # encoding: UTF-8
 
-require 'rubygems'
-
-require 'bundler/setup'
+# require 'rubygems'
 
 task :usage do
-  puts 'No rake task specified, use rake -T to list them'
+  puts "No rake task specified, use rake -T to list them"
 end
-task :default => [:usage]
 
-if $0 == __FILE__
-	Rake.application['usage'].invoke
-end
+
+task :default => [:usage]
