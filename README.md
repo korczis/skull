@@ -6,7 +6,6 @@ Collection of programming materials
 
 * [![Build Status](https://travis-ci.org/korczis/skull-c.svg?branch=master)](https://travis-ci.org/korczis/skull-c) [skull-c](https://github.com/korczis/skull-c) - C
 * [![Build Status](https://travis-ci.org/korczis/skull-cpp.svg?branch=master)](https://travis-ci.org/korczis/skull-cpp) [skull-cpp](https://github.com/korczis/skull-cpp) - C++
-* [skull-cuda](https://github.com/korczis/skull-cuda) - Cuda (Nvidia)
 * [![Build Status](https://travis-ci.org/korczis/skull-erlang.svg?branch=master)](https://travis-ci.org/korczis/skull-erlang) [skull-erlang](https://github.com/korczis/skull-erlang) - Erlang
 * [![Build Status](https://travis-ci.org/korczis/skull-haskell.svg?branch=master)](https://travis-ci.org/korczis/skull-haskell) [skull-haskell](https://github.com/korczis/skull-haskell) - Haskell
 * [skull-java](https://github.com/korczis/skull-java) - Java
