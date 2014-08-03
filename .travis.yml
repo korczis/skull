@@ -1,0 +1,10 @@
+language: ruby
+
+rvm:
+  - 2.0
+  - 2.1
+
+before_install:
+  - gem update --system
+  - gem update bundler
+
