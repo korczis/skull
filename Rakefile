@@ -11,3 +11,4 @@ task :default => [:usage]
 
 if $0 == __FILE__
 	Rake.application['usage'].invoke
+end
